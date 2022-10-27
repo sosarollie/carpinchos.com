@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
+
 
 body {
     display: flex;
@@ -9,7 +11,7 @@ body {
 }
 
 .header {
-    background-color: #4b2502;
+    background-color: #2a4d2a;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -31,11 +33,16 @@ ul {
     gap: 24px;
 }
 
+img {
+    width: 400px;
+    height: auto;
+}
+
 .upper-body {
     display:flex;
     justify-content: center;
     flex-basis: auto;
-    background-color: #4b2502;
+    background-color: #2a4d2a;
     color: white;
     padding: 100px;
     gap: 36px;
@@ -54,18 +61,107 @@ ul {
     font-weight: 800;
     max-width: 400px;
     padding: 0px;
+    margin-bottom: 15px;
 }
 
 .subtext {
     max-width: 500px;
+    margin-bottom: 15px;
 }
 
 button {
-    background-color: #b15a09;
+    background-color: #53a153;
     border: 0px;
     padding: 4px 30px;
     padding-bottom: 6px;
     font-size: 16px;
     color: #F9FAF8;
     border-radius: 10px;
+}
+
+.mid-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    padding-bottom: 115px;
+}
+
+.mid-body .heading {
+    font-size: 36px;
+    max-width: none;
+}
+
+.figures {
+    display:flex;
+}
+
+.figures img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+figure {
+    text-align: center;
+    max-width: 200px;
+    max-height: 200px;
+    border: 4px solid #53a153;
+    border-radius: 6px;
+}
+
+.mid-body2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 300px;
+    background-color: #E5E7EB;
+}
+
+.mid-body2 .quote {
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.autor {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.lower-body {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #53a153;
+    margin: 100px;
+    padding: 30px 10px;
+    gap: 10px;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.lower-body .left {
+    display:flex;
+    flex-direction: column;
+}
+
+.lower-body .heading {
+    font-size: 24px;
+}
+
+.lower-body .button {
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+}
+
+.footer {
+    display:flex;
+    background-color: #2a4d2a;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 40px;
 }
